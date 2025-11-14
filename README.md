@@ -74,7 +74,7 @@ This will execute all combinations of:
 2. **Core vs. Priceability Experiments** (`core_vs_price_up_to_m`):
    - Find minimum core deviation incentive while satisfying priceability axioms
    - Compare core stability under different priceability axioms
-```
+
 
 ## Code Structure
 
@@ -103,6 +103,7 @@ This will execute all combinations of:
 
 Experiments create the following directory structure:
 
+```
 runs/
 ├── milp_with_hare/
 │   └── m3k2/
@@ -115,6 +116,7 @@ runs/
 ├── harecore_vs_priceability/
 ├── droopcore_vs_lindahl/
 └── droopcore_vs_priceability/
+```
 
 ### Result Files
 
