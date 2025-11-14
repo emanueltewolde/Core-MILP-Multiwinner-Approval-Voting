@@ -1,0 +1,33 @@
+
+Gurobi 11.0.3 (mac64[arm]) logging started Tue Aug  5 01:30:57 2025
+
+Set parameter LogFile to value "runs/milp_with_hare/m3k2.log"
+Warning: constraint name "simplex constraint" has a space
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 7 rows, 18 columns and 20 nonzeros
+Model fingerprint: 0xe212591b
+Variable types: 9 continuous, 9 integer (9 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+00]
+  RHS range        [1e+00, 2e+00]
+
+Loaded user MIP start with objective -0.166667
+
+Presolve removed 7 rows and 18 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 10 available processors)
+
+Solution count 2: -0.166667 -0.166667 
+No other solutions better than -0.166667
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -1.666666666667e-01, best bound -1.666666666667e-01, gap 0.0000%

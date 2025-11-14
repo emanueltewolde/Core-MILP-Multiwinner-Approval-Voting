@@ -1,0 +1,56 @@
+
+Gurobi 11.0.3 (mac64[arm]) logging started Tue Aug  5 01:30:57 2025
+
+Set parameter LogFile to value "runs/droopcore_vs_lindahl/m3k2.log"
+Warning: constraint name "simplex constraint" has a space
+Warning: Q constraint 0 doesn't have a name
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 6 rows, 76 columns and 23 nonzeros
+Model fingerprint: 0xd2f3cb77
+Model has 12 quadratic constraints
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+00]
+  RHS range        [3e-01, 2e+00]
+Presolve removed 0 rows and 64 columns
+
+Continuous model is non-convex -- solving as a MIP
+
+Presolve removed 0 rows and 64 columns
+Presolve time: 0.00s
+Presolved: 22 rows, 12 columns, 51 nonzeros
+Presolved model has 8 bilinear constraint(s)
+Variable types: 12 continuous, 0 integer (0 binary)
+Found heuristic solution: objective 0.1666667
+
+Root relaxation: objective -3.333333e-01, 9 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   -0.33333    0    4    0.16667   -0.33333   300%     -    0s
+     0     0   -0.33333    0    7    0.16667   -0.33333   300%     -    0s
+     0     0   -0.33333    0    6    0.16667   -0.33333   300%     -    0s
+     0     0   -0.16667    0    5    0.16667   -0.16667   200%     -    0s
+     0     0   -0.15942    0    5    0.16667   -0.15942   196%     -    0s
+     0     0   -0.15686    0    5    0.16667   -0.15686   194%     -    0s
+     0     0   -0.09604    0    5    0.16667   -0.09604   158%     -    0s
+     0     2   -0.09604    0    5    0.16667   -0.09604   158%     -    0s
+
+Cutting planes:
+  RLT: 3
+
+Explored 37 nodes (132 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 10 (of 10 available processors)
+
+Solution count 1: 0.166667 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.666666666667e-01, best bound 1.666568624575e-01, gap 0.0059%

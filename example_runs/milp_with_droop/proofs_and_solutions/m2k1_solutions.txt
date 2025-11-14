@@ -1,0 +1,13 @@
+The optimal objective value is: -0.0
+50.0 percentage of the votes are {1}.
+50.0 percentage of the votes are {2}.
+
+
+For committee {1}, the voters would like to deviate to any of the following subcommittees: {2} with deviation incentives 0.0, 
+For committee {2}, the voters would like to deviate to any of the following subcommittees: {1} with deviation incentives 0.0, 
+
+
+--------------------------------------
+--------------------------------------
+--------------------------------------
+

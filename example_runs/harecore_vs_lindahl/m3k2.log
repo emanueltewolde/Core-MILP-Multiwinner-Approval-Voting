@@ -1,0 +1,67 @@
+
+Gurobi 11.0.3 (mac64[arm]) logging started Tue Aug  5 01:30:57 2025
+
+Set parameter LogFile to value "runs/harecore_vs_lindahl/m3k2.log"
+Warning: constraint name "simplex constraint" has a space
+Warning: Q constraint 0 doesn't have a name
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 6 rows, 76 columns and 23 nonzeros
+Model fingerprint: 0x5afd2d24
+Model has 12 quadratic constraints
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+00]
+  RHS range        [5e-01, 2e+00]
+Presolve removed 0 rows and 64 columns
+
+Continuous model is non-convex -- solving as a MIP
+
+Presolve removed 0 rows and 64 columns
+Presolve time: 0.00s
+Presolved: 22 rows, 12 columns, 51 nonzeros
+Presolved model has 8 bilinear constraint(s)
+Variable types: 12 continuous, 0 integer (0 binary)
+Found heuristic solution: objective 0.0000000
+
+Root relaxation: objective -5.000000e-01, 6 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   -0.50000    0    2    0.00000   -0.50000      -     -    0s
+     0     0   -0.50000    0    4    0.00000   -0.50000      -     -    0s
+     0     0   -0.50000    0    4    0.00000   -0.50000      -     -    0s
+     0     0   -0.45833    0    4    0.00000   -0.45833      -     -    0s
+     0     0   -0.40000    0    4    0.00000   -0.40000      -     -    0s
+     0     0   -0.36364    0    5    0.00000   -0.36364      -     -    0s
+     0     2   -0.36364    0    5    0.00000   -0.36364      -     -    0s
+H   43    28                      -0.0000003   -0.01232      -   2.0    0s
+H   68    52                      -0.0000006   -0.00600      -   1.5    0s
+H   74    52                      -0.0000006   -0.00600      -   1.4    0s
+H   91    70                      -0.0000006   -0.00422      -   1.2    0s
+*  109    88              10      -0.0000007   -0.00369      -   1.0    0s
+*  321   282              33      -0.0000009   -0.00316      -   0.3    0s
+*  541   500              33      -0.0000009   -0.00316      -   0.2    0s
+* 1636  1304              26      -0.0000010   -0.00097      -   0.1    0s
+* 2103  1550              26      -0.0000010   -0.00071      -   0.1    0s
+H 2555  2180                      -0.0000010   -0.00060      -   0.1    0s
+* 4075  2966              26      -0.0000010   -0.00039      -   0.1    0s
+H 4435  3408                      -0.0000014   -0.00037      -   0.1    0s
+
+Cutting planes:
+  RLT: 5
+
+Explored 5623 nodes (735 simplex iterations) in 0.08 seconds (0.03 work units)
+Thread count was 10 (of 10 available processors)
+
+Solution count 10: -1.37095e-06 -1.01994e-06 -1.01575e-06 ... -5.5491e-07
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -1.370947031010e-06, best bound -1.370947031010e-06, gap 0.0000%

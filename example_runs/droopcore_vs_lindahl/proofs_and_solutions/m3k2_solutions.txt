@@ -1,0 +1,15 @@
+
+
+
+--------------------------------------
+--------------------------------------
+--------------------------------------
+
+The optimal objective value is: 0.16667
+2.717 percentage of the votes are set().
+50.0 percentage of the votes are {2}.
+14.002999999999998 percentage of the votes are {1, 2}.
+14.002999999999998 percentage of the votes are {2, 3}.
+19.277 percentage of the votes are {1, 2, 3}.
+
+
