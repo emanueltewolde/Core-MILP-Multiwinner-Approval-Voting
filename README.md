@@ -13,7 +13,7 @@ It implements the theoretical framework described in the associated AAAI 2026 pa
     author = {Ratip Emin Berker, Emanuel Tewolde, Vincent Conitzer, Mingyu Guo, Marijn Heule, and Lirong Xia,
     title = "On the Edge of Core (Non-)emptiness: An Automated Reasoning Approach to Approval-based Multi-winner Voting",
     year = "2026",
-    booktitle = "AAAI",
+    booktitle = "Proceedings of the Fortieth AAAI Conference on Artificial Intelligence",
 }
 ```
 
