@@ -4,7 +4,7 @@ This repository contains code for analyzing core concepts in approval-based mult
 
 It implements the theoretical framework described in the associated AAAI 2026 paper:
 
-"**[On the Edge of Core (Non-)emptiness: An Automated Reasoning Approach to Approval-based Multi-winner Voting](http://arxiv.org/)**" by *Ratip Emin Berker\*, Emanuel Tewolde\*, Vincent Conitzer, Mingyu Guo, Marijn Heule, and Lirong Xia*. (\*equal contribution)
+"**[On the Edge of Core (Non-)emptiness: An Automated Reasoning Approach to Approval-based Multi-winner Voting](https://arxiv.org/pdf/2512.16895)**" by *Ratip Emin Berker\*, Emanuel Tewolde\*, Vincent Conitzer, Mingyu Guo, Marijn Heule, and Lirong Xia*. (\*equal contribution)
 
 **Citation:**
 
